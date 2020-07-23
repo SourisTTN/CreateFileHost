@@ -3,9 +3,12 @@
 # Region: VietNam
 # Mobile: 0384371504
 # FaceBook: https://facebook.com/souris0112
+
+
+
+
 # Welcome To Host By Souris
-# All Host Free 
 # Host Pubg is in the process of finishing
-# Host Arena Of Valor (All Region Ver 1.0) for AdGuard(ios): https://raw.githubusercontent.com/nghiapro12361/Souris/master/HostAoV(BeTa)?token=AQLKKUMCXXVUNJ5ZIJ2AJNK7DHFIA
-# Host Arena Of Valor (Version Free) for Android: https://raw.githubusercontent.com/nghiapro12361/Souris/master/HostAOV(android)?token=AQLKKUOU42QORXY52FBMRXK7DHFRI
+# Host Arena Of Valor (All Region Ver 1.0) for AdGuard(ios): https://github.com/nghiapro12361/Souris/blob/master/HostAoV(BeTa)
+# Host Arena Of Valor (Version Free) for Android: https://github.com/nghiapro12361/Souris/blob/master/HostAOV(android)
 # All Host Will Update Frequently
