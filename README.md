@@ -10,6 +10,6 @@
 
 # Welcome To Host By Souris
 # Host Pubg is in the process of finishing
-# Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://github.com/nghiapro12361/Souris/blob/master/HostAoV(BeTa))
+# Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://github.com/SourisTTN/Souris/blob/master/HostAOV(1.0))
 # Host Arena Of Valor (Version Free) for [Android](https://github.com/nghiapro12361/Souris/blob/master/HostAOV(android))
 # All Host Will Update Frequently
