@@ -1,7 +1,8 @@
 ! Title: HostAOV
 ! Description: This filter is only an experiment will update regularly.
-! Last modified: 23 Jul 2020 23:30 UTC+7
-! Version: 1.0
+! Last modified: 25 Jul 2020 11:10 UTC+7
+! Version: 1.1
+! Note:Fix Lag
 ! Blocked: 10,000 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/nghiapro12361/Souris
@@ -9768,3 +9769,13 @@ http://dlied1.qq.com:80/iedsafe/Client/android/8577/config2.xml
 ||www.wechat.com
 ||qq.com
 ||wechat.qq.com
+[IPv4]
+8.8.8.8 dns.google
+8.8.4.4 dns.google
+1.1.1.1 one.one.one.one
+1.0.0.1 one.one.one.one
+[IPv6]
+2001:4860:4860:0:0:0:0:8888 dns.google
+2001:4860:4860:0:0:0:0:8844 dns.google
+0000:0000:0000:0000:0000:FFFF:0101:0101 one.one.one.one
+0000:0000:0000:0000:0000:FFFF:0100:0001 one.one.one.one
