@@ -1,7 +1,7 @@
 ! Title: HostAOV
 ! Description: This filter is only an experiment will update regularly.
 ! Last modified: 25 Jul 2020 11:10 UTC+7
-! Version: 1.1
+! Version: 2.0
 ! Note:Fix Lag
 ! Blocked: 10,000 rules
 ! Expires: 1 days (update frequency)
@@ -26,6 +26,10 @@
 ||google.com^
 ||launches.appsflyer.com^
 ||appsflyer.com^
+||vn.voice.gcloudcs.com^
+||voice.gcloudcs.com^
+||https://app-measurement.com/sdk-exp^
+||gcloudcs.com^
 ||www.googleapis.com^
 ||googleapis.com^
 ||s.youtube.com^
