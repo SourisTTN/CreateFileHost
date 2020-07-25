@@ -1,11 +1,11 @@
-! Title: HostAOV
+! Title: AOV(2.0)
 ! Description: This filter is only an experiment will update regularly.
 ! Last modified: 25 Jul 2020 11:10 UTC+7
 ! Version: 2.0
-! Note:Fix Lag
+! Note:Fix Lag And Update Host
 ! Blocked: 10,000 rules
-! Expires: 1 days (update frequency)
-! Homepage: https://github.com/nghiapro12361/Souris
+! Expires: Never
+! Homepage: https://facebook.com/souris0112
 ||launches.appsflyer.com^
 ||appsflyer.com^
 ||app-measurement.com^
