@@ -14,4 +14,3 @@
 # Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://raw.githubusercontent.com/SourisTTN/createhost/master/AOVHost(2.0))
 # Host Arena Of Valor (Version Free) for [Android](https://raw.githubusercontent.com/SourisTTN/createhost/master/HostAOV(android))
 # All Host Will Update Frequently
-git config -- global user.name
