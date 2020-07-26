@@ -2,14 +2,15 @@
 # Information Admin
 # NickName: Souris
 # Region: VietNam
-# Mobile: 0384371504
+# [My Phone](+84384371504)
 # [FaceBook](https://facebook.com/souris0112)
+
 
 
 
 
 # Welcome To Host By Souris
 # Host Pubg is in the process of finishing
-# Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://github.com/SourisTTN/Souris/blob/master/HostAOV(1.0))
+# Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://raw.githubusercontent.com/SourisTTN/createhost/master/AOVHost(2.0))
 # Host Arena Of Valor (Version Free) for [Android](https://github.com/nghiapro12361/Souris/blob/master/HostAOV(android))
 # All Host Will Update Frequently
