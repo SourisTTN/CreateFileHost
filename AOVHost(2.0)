@@ -1,6 +1,6 @@
 ! Title: AOV(2.0)
 ! Description: This filter is only an experiment will update regularly.
-! Last modified: 25 Jul 2020 11:10 UTC+7
+! Last modified: 26 Jul 2020 22:00 UTC+7
 ! Version: 2.0
 ! Note:Fix Lag And Update Host
 ! Blocked: 10,000 rules
@@ -11,6 +11,83 @@
 ||app-measurement.com^
 ||ios.bugly.qq.com^
 ||bugly.qq.com^
+||mobile-api.adguard.com^
+||adguard.com^
+||p19-buy.itunes-apple.com.akadns.net^
+||itunes-apple.com.akadns.net^
+||com.akadns.net^
+||akadns.net^
+||e673.dsce9.akamaiedge.net^
+||dsce9.akamaiedge.net^
+||akamaiedge.net^
+||app-measurement.com^
+||intldlgs.qq.com^
+||identity.ess-apple.com.akadns.net^
+||ess-apple.com.akadns.net^
+||profile.ess-apple.com.akadns.net^
+||cdp.cloud.unity3d.com^
+||cloud.unity3d.com^
+||gateway.fe.apple-dns.net^
+||fe.apple-dns.net^
+||apple-dns.net^
+||cdn.vn.garenanow.com^
+||vn.garenanow.com^
+||intldlgs.qq.com^
+||oth.eve.mdt.qq.com^
+||eve.mdt.qq.com^
+||mdt.qq.com^
+||vn.voice.gcloudcs.com^
+||voice.gcloudcs.com^
+||gcloudcs.com^
+||time-ios.apple.com^
+||identity.ess.apple.com^
+||ess.apple.com^
+||profile.ess.apple.com^
+||thuhoi.net^
+||i.ytimg.com^
+||ytimg.com^
+||youtube-ui.l.google.com^
+||l.google.com^
+||speed.kg.garena.vn^
+||kg.garena.vn^
+||cloud2.gsdk.proximabeta.com^
+||gsdk.proximabeta.com^
+||proximabeta.com^
+||upp.itunes.apple.com^
+||itunes.apple.com^
+||control.mna.qq.com^
+||mna.qq.com^
+||platform-lookaside.fbsbx.com^
+||fbsbx.com^
+||qos.hk.gcloudcs.com^
+||hk.gcloudcs.com^
+||idcconfig.gcloud.qq.com^
+||gcloud.qq.com^
+||f.gxx.garenanow.com^
+||gxx.garenanow.com^
+||ng-vn-sdkapi.gameitop.com^
+||logs.papertrailapp.com^
+||prd-lender.cdp.internal.unity3d.com^
+||cdp.internal.unity3d.com^
+||internal.unity3d.com^
+||serviceproxy-elb-5fc410e03b31f811.elb.ap-southeast-1.amazonaws.com^
+||elb.ap-southeast-1.amazonaws.com^
+||ap-southeast-1.amazonaws.com^
+||amazonaws.com^
+||asia.csoversea.mbgame.anticheatexpert.com^
+||csoversea.mbgame.anticheatexpert.com^
+||mbgame.anticheatexpert.com^
+||anticheatexpert.com^
+||ng-vn-sdkapi.gameitop.com^
+||inapps.appsflyer.com^
+||ocsp.comodoca.com^
+||comodoca.com^
+||lienquan.garena.vn^
+||100054.connect.garena.com^
+||connect.garena.com^
+||mtalk.google.com^
+||filters.adtidy.org^
+||adtidy.org^
 ||qq.com^
 ||ng-vn-notice.gameitop.com^
 ||gameitop.com^
