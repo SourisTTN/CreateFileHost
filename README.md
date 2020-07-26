@@ -10,7 +10,7 @@
 
 
 # Welcome To Host By Souris
-## Host Info
+## [Host Info](https://raw.githubusercontent.com/SourisTTN/createhost/master/Host%20info)
 ### Host Pubg is in the process of finishing
 ### Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://raw.githubusercontent.com/SourisTTN/createhost/master/AOVHost(2.0))
 ### Host Arena Of Valor (Version Free) for [Android](https://raw.githubusercontent.com/SourisTTN/createhost/master/HostAOV(android))
