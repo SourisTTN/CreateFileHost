@@ -2,7 +2,7 @@
 # Information Admin
 # NickName: Souris
 # Region: VietNam
-# My Phone:+84384371504
+# Phone:+84384371504
 # [FaceBook](https://facebook.com/souris0112)
 
 
