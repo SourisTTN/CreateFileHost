@@ -8,7 +8,6 @@
 !
 ||ocsp.int-x3.letsencrypt.org^
 ||https://app-measurement.com/sdk-exp^
-||oauthaccountmanager.googleapis.com^
 ||appldnld.apple.com.akadns.net^
 ||appldnld.g.aaplimg.com^
 ||mesu-cdn.apple.com.akadns.net^
