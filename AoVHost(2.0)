@@ -6,6 +6,22 @@
 ! Blocked: 10,000 rules
 ! Expires: Never
 ! Homepage: https://github.com/SourisTTN/CreateFileHost
+||ocsp.int-x3.letsencrypt.org^
+||appldnld.apple.com.akadns.net^
+||appldnld.g.aaplimg.com^
+||mesu-cdn.apple.com.akadns.net^
+||mesu-cdn.origin-apple.com.akadns.net^
+||mesu.g.aaplimg.com^
+||gdmf.apple.com^
+||gdmf.apple.com.akadns.net^
+||world-gen.g.aaplimg.com^
+||www.gdmf.apple.com^
+||ppq.apple.com^
+||iadsdk.apple.com^
+||googleads.g.doubleclick.net^
+||googletagservices.com^
+||stats.g.doubleclick.net^
+||adclick.g.douclick.net^
 ||launches.appsflyer.com^
 ||appsflyer.com^
 ||app-measurement.com^
