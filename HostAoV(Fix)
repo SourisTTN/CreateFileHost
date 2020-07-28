@@ -1,7 +1,7 @@
 ! Title: HostFix
 ! Description: Fix And Update Host New
 ! Last Update: 28 Jul 2020 16:00 UTC+7
-! Version: 2007151609
+! Version: 2.1
 ! Blocked: 6,000 rules
 ! Expires: Never
 ! Homepage: https://github.com/SourisTTN/createhost
@@ -18,7 +18,6 @@
 ||itunes-apple.com.akadns.net^
 ||com.akadns.net^
 ||akadns.net^
-||fbcdn.net^
 ||garena.vn^
 ||fbsbx.com^
 ||scontent.fdad2-1.fna.fbcdn.net^
