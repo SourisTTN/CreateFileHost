@@ -7,6 +7,14 @@
 ! Homepage: https://github.com/SourisTTN/createhost
 !
 ||ocsp.int-x3.letsencrypt.org^
+||https://app-measurement.com/sdk-exp^
+||www.googleapis.com^
+||googleapis.com^
+||people-pa.googleapis.com^
+||oauthaccountmanager.googleapis.com^
+||people-pa.googleapis.com^
+||youtubei.googleapis.com^
+||safebrowsing.googleapis.com^
 ||appldnld.apple.com.akadns.net^
 ||appldnld.g.aaplimg.com^
 ||mesu-cdn.apple.com.akadns.net^
