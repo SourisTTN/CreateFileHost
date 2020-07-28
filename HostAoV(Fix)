@@ -1,7 +1,8 @@
-! Title: HostAoV(2.1
-! Description: Fix Lag And Update New Host
-! Last Update: 28 Jul 2020 12:00 UTC+7
-! Version: 2.1
+! Title: HostAOV
+! Description: This filter is only an experiment will update regularly.
+! Last modified: 26 Jul 2020 22:00 UTC+7
+! Version: 2.0
+! Note:Fix Lag And Update New Host
 ! Blocked: 10,000 rules
 ! Expires: Never
 ! Homepage: https://facebook.com/souris0112
@@ -99,7 +100,6 @@
 ||garenanow.com^
 ||inapps.appsflyer.com^
 ||mtalk.google.com^
-||google.com^
 ||launches.appsflyer.com^
 ||appsflyer.com^
 ||vn.voice.gcloudcs.com^
@@ -130,7 +130,6 @@
 ||gateway.icloud.com^
 ||icloud.com^
 ||web.facebook.com^
-||facebook.com^
 ||edge-mqtt.facebook.com^
 ||scontent-xsp1-2.xx.fbcdn.net^
 ||xx.fbcdn.net^
@@ -9636,7 +9635,7 @@ http://dlied1.qq.com:80/iedsafe/Client/android/8577/config2.xml
 ||games.wifichua.xyz
 ||i.repo.co.kr
 ||iqia6two1k.execute-api.ap-southeast-1.amazonaws.com
-||scontent-hkg3-1.xx.fbcdn.net
+||scontent-hkg3-1.xx.fbcdn.net^
 ||qosidc.gcloud.qq.com
 ||cdn.ampproject.org
 ||platform-lookaside.fbsbx.com
@@ -9842,7 +9841,6 @@ http://dlied1.qq.com:80/iedsafe/Client/android/8577/config2.xml
 ||p37-buy.itunes.apple.com
 ||apple.com
 ||www.apple.com
-||google.com
 ||api.instabug.com
 ||wechat.com
 ||www.wechat.com
