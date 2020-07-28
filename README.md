@@ -12,7 +12,7 @@
 # Welcome To Host By Souris
 ## [Host Info](https://raw.githubusercontent.com/SourisTTN/createhost/master/Host%20info)
 ### Host Pubg is in the process of finishing
-### Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264): [Host](https://raw.githubusercontent.com/SourisTTN/createhost/master/AOVHost(2.0))
+### Host Arena Of Valor (All Region Ver 1.0) for [AdGuard(ios)](https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264): [Host](https://raw.githubusercontent.com/SourisTTN/CreateFileHost/master/AoVHost(2.0))
 ### Host Arena Of Valor (Version Free) for Android [Host](https://raw.githubusercontent.com/SourisTTN/createhost/master/HostAOV(android))
 ### All Host Will Update Frequently
 ### Currently Android Can Not Update Regularly
