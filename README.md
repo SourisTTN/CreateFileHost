@@ -3,7 +3,6 @@
 ## NickName: Souris
 ## Region: VietNam
 ## Phone:+84384371504
-## [FaceBook](https://facebook.com/souris0112)
 ## [Fanpage](https://github.com/SourisTTN/CreateFileHost)
 
 # Welcome To Host By Souris
