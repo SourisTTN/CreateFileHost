@@ -7,6 +7,20 @@
 ! Homepage: https://github.com/SourisTTN/createhost
 !
 ||ocsp.int-x3.letsencrypt.org^
+||api-glb-hkg.smoot.apple.com^
+||smoot.apple.com^
+||apple.com^
+||time-ios.g.aaplimg.com^
+||g.aaplimg.com^
+||aaplimg.com^
+||gspe11-ssl.ls.apple.com.edgekey.net^
+||ls.apple.com.edgekey.net^
+||apple.com.edgekey.net^
+||com.edgekey.net^
+||edgekey.net^
+||time-ios.apple.com^
+||configuration.ls.apple.com^
+||ls.apple.com^
 ||https://app-measurement.com/sdk-exp^
 ||appldnld.apple.com.akadns.net^
 ||appldnld.g.aaplimg.com^
