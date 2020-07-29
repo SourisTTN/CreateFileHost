@@ -1,4 +1,4 @@
-! Title: HostAdsWithAnti
+! Title: HostTest
 ! Description: Fix And Update Host New
 ! Last Update: 28 Jul 2020 16:00 UTC+7
 ! Version: 2.1
@@ -8,6 +8,20 @@
 !
 ||ocsp.int-x3.letsencrypt.org^
 ||https://app-measurement.com/sdk-exp^
+||api-glb-hkg.smoot.apple.com^
+||smoot.apple.com^
+||apple.com^
+||time-ios.g.aaplimg.com^
+||g.aaplimg.com^
+||aaplimg.com^
+||gspe11-ssl.ls.apple.com.edgekey.net^
+||ls.apple.com.edgekey.net^
+||apple.com.edgekey.net^
+||com.edgekey.net^
+||edgekey.net^
+||time-ios.apple.com^
+||configuration.ls.apple.com^
+||ls.apple.com^
 ||appldnld.apple.com.akadns.net^
 ||appldnld.g.aaplimg.com^
 ||mesu-cdn.apple.com.akadns.net^
