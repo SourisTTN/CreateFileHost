@@ -8,7 +8,15 @@
 !
 ||ocsp.int-x3.letsencrypt.org^
 ||api-glb-hkg.smoot.apple.com^
+||gdmf.apple.com^
+||www.gdmf.apple.com^
+||world-gen.g.applimg.com^
 ||smoot.apple.com^
+||app.ldnld.apple.com^
+||ppg.app.com^
+||ocsp.inp-x3.letsencrypt.com^
+||iadsdk.apple.com^
+||googletagservices.com^
 ||apple.com^
 ||firebaselogging-pa.googleapis.com^
 ||api.instabug.com^
