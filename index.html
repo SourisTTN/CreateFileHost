@@ -1,62 +1,133 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>HTML Cơ Bản</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Học Làm Web</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/base.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.14.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
 <body>
-	<div class="warpper">
-    	<div class="header">
-        	<div class="row">
-            	<div class="left">
-                	<ul><li><span>Ngày Tháng Năm</span></li></ul>
-                </div>
-                <div class="right">
-                	<ul>
-                    	<li><span><a href="#">Tài khoản của tôi</a></span></li>
-                    	<li><span><a href="#">Giỏ hàng</a></span></li>
-                    	<li><span><a href="#">Đăng nhập</a></span></li>
-                    	<li><span><a href="#">Đăng ký</a></span></li>
-                    </ul>
-                 </div>
-            </div>
-        </div>
-        <div class="logo"><a href="#"><img src="logo.jpg" /></a></div>
-        <div class="header" id="header1">
-        	<div class="row">
-            	<div class="category"><ul><li>Danh Mục</li></ul>
-                </div>
-                <div class="menu">
-                	<ul>
-                    	<li><a href="#">Trang Chủ</a></li>
-                    	<li><a href="#">Giới Thiệu</a></li>
-                    	<li><a href="#">Tin Tức</a></li>
-                    	<li><a href="#">Sản Phẩm</a></li>
-                    	<li><a href="#">Hỏi Đáp</a></li>
-                    	<li><a href="#">Tuyển Dụng</a></li>
-                    	<li><a href="#">Liên Hệ</a></li>
-                    </ul>
-                </div>
-             </div>
-        </div>
-       		<div class="main">
-            	<div class="row">
-            	<div class="mleft">
-                	<ul>
-                    	<li><a href="#">Lập Trình Web</a></li>
-                    	<li><a href="#">Lập Trình Java</a></li>
-                    	<li><a href="#">Lập Trình Android</a></li>
-                    	<li><a href="#">Lập Trình Unity</a></li>
-                    	<li><a href="#">Lập Trình Cshap</a></li>
-                    	<li><a href="#">Unity</a></li>
-                    	<li><a href="#">Lập Trình Ứng Dụng</a></li>
-                    	<li><a href="#">Seo-Marketing</a></li>
-                    </ul>
-                </div>
-                <div class="mright"><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.eportal.vn%2FPortals%2F0%2Ftrang%2520chu%2520new%2F0509%2FWebsite-e1505319462519.jpg&imgrefurl=https%3A%2F%2Fwww.eportal.vn%2Fdich_vu%2Fxay_dung_website&tbnid=8B-ZPqIiFuPc4M&vet=12ahUKEwjK-pnA5vvqAhUlJaYKHb8rB5gQMygAegUIARChAQ..i&docid=UOmAh7Kj-biadM&w=1200&h=830&q=%E1%BA%A3nh%20website&ved=2ahUKEwjK-pnA5vvqAhUlJaYKHb8rB5gQMygAegUIARChAQ"><img src="web.jpeg" /></a></div>
-                </div>
-             </div>
-    </div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="grid">
+				<nav class="header__navbar">
+				<ul class="header__list">
+					<li class="header__item header__item-separate header__item-qr">
+						Vào cửa hàng trên ứng dụng
+						<div class="header__qr">
+							<img src="./assets/img/qrcode.png" alt="Qr-Code" class="header__qr-img">
+							<div class="header__qr-apps">
+								<a href="#" class="header__qr-link"><img src="./assets/img/ggplay.png" alt="Google Play" class="header__qr-img-download"></a>
+								<a href="#" class="header__qr-link"><img src="./assets/img/appstore.png" alt="Appstore" class="header__qr-img-download"></a>
+							</div>
+						</div>
+					</li>
+					<li class="header__item">
+							<span class="header_nav-span">Kết nối</span>
+						<a href="https://www.facebook.com/" target="_blank" class="header_navbar-icon">
+							<i class="header_nav-icon fab fa-facebook"></i>
+						</a>
+						<a href="https://www.instagram.com" target="_blank" class="header_navbar-icon">
+							<i class="header_nav-icon fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="header__list">
+					<li class="header__item header__item-notifi"><a href="#" class="header__item-link header__fa-bell">
+						<i class="header_nav-icon far fa-bell"></i>
+							Thông báo
+						</a>
+						<div class="header__notifi">
+							<header class="header__notifi-header">
+								<h3>Thông báo mới nhận</h3>
+							</header>
+							<ul class="header__notifi-list">
+								<li class="header__notifi-item header__notifi-item-viewed">
+									<a href="#" class="header__notifi-link">
+										<img src="./assets/img/notifi.png" alt="" class="header__notifi-img">
+										<div class="header__notifi-info">
+											<span class="header__notifi-name">Mỹ phẩm Ohui chính hãng</span>
+											<span class="header__notifi-desciotion">Mô tả mỹ phẩm Ohui chính hãng</span>
+										</div>
+									</a>
+								</li>
+								<li class="header__notifi-item header__notifi-item-viewed">
+									<a href="#" class="header__notifi-link">
+										<img src="./assets/img/notifi.png" alt="" class="header__notifi-img">
+										<div class="header__notifi-info">
+											<span class="header__notifi-name">Mỹ phẩm Ohui chính hãng</span>
+											<span class="header__notifi-desciotion">Mô tả mỹ phẩm Ohui chính hãng</span>
+										</div>
+									</a>
+								</li>
+								<li class="header__notifi-item header__notifi-item-viewed">
+									<a href="#" class="header__notifi-link">
+										<img src="./assets/img/notifi.png" alt="" class="header__notifi-img">
+										<div class="header__notifi-info">
+											<span class="header__notifi-name">Mỹ phẩm Ohui chính hãng</span>
+											<span class="header__notifi-desciotion">Mô tả mỹ phẩm Ohui chính hãng</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<footer class="header__notifi-footer">
+								<a href="#" class="header__notifi-footer-btn">Xem Tất Cả</a>
+							</footer>
+						</div>
+					</li>
+					<li class="header__item"><a href="#" class="header__item-link">
+					<i class="header_nav-icon far fa-question-circle"></i>
+						Trợ giúp
+						</a>
+					</li>
+					<li class="header__item"><a href="#" class="header__item-link  header__item-strong headerdk">Đăng ký</a></li>
+					<li class="header__item"><a href="#" class="header__item-link header__item-strong">Đăng nhập</a></li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+		<div class="container">
+			
+		</div>
+		<div class="footer">
+			
+		</div>
+	</div>
+	<div class="modal">
+		<div class="modal__overlay"></div>
+		<div class="modal__body">
+			<div class="modal__inner">
+				<!--Authen Form-->
+				<div class="auth-form">
+					<div class="auth-form__header">
+						<h3 class="auth-form__heading">Đăng ký</h3>
+						<span class="auth-form__switch-btn">Đăng nhập</span>
+					</div>
+					<div class="auth-form__form">
+						<div class="auth-form__group">
+							<input type="text" class="auth-form__input" placeholder="Email của bạn">
+						</div>
+						<div class="auth-form__group">
+							<input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+						</div>
+						<div class="auth-form__group">
+							<input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+						</div>
+					</div>
+					<div class="auth-form__aside">
+						<p class="auth-form__policy-text">
+							Bằng việc đăng kí, bạn đã đồng ý với Souris về
+							<span>Điều khoản dịch vụ & Chính sách bảo mật</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,215 @@
+.header{
+	height: 12rem;
+	background-image: linear-gradient(0,#0d1137,#f53e2d)
+}
+.header__navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.header__list{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 4px;
+
+}
+.header__item{
+	margin: 0 1rem;
+	position: relative;
+	min-height: 26px;
+}
+.header__item, .header__item-link{
+	display: inline-block;
+	font-size: 1.4rem;
+	color: var(--white-color);
+	text-decoration: none;
+	font-weight: 300;
+}
+.header__item-strong{
+	font-weight: 400;
+}
+.header__item-separate::after, .headerdk::after{
+	content: "";
+	display:block;
+	position: absolute;
+	width:1px;
+	height: 12px;
+	border-left: 1px solid #FB9086;
+	right: -12px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.header__qr::before{
+	content: "";
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	left: 0px;
+	top: -16px;
+	display: block;
+}
+.header_navbar-icon{
+	color:var(--white-color);
+	text-decoration: none;
+}
+.header_nav-icon{
+	font-size: 1.8rem;
+	margin: 0px 4px;
+}
+.header__item:hover, .header__item-link:hover, .header_nav-icon:hover{
+	color: rgba(255,255,255,0.7);
+	cursor: pointer;
+}
+.header__item-qr:hover .header__qr{
+	display: block;
+}
+.header__item, .header__item-link, .header_navbar-icon{
+	display: inline-flex;
+	align-items: center;	
+}
+.header_nav-span{
+	color: var(--white-color);
+	user-select: none;
+	cursor: default;
+}
+/*Header QRCode*/
+.header__qr{
+	background-color: var(--white-color);
+	width: 186px;
+	position: absolute;
+	top: 120%;
+	left: 0px;
+	padding: 8px;
+	border-radius: 2px;
+	display: none;
+	animation: fadeIn ease-in 0.5s;
+	-webkit-animation:fadeIn ease-in 0.5s;
+}
+.header__qr-img{
+	width: 100%;
+
+}
+.header__qr-apps{
+	display: flex;
+	justify-content: space-between;
+
+}
+.header__qr-link:first-child{
+	margin-left: 11px;
+}
+.header__qr-link:last-child{
+	margin-right: 11px;
+}
+.header__qr-img-download{
+	height: 16px;
+}
+/*header__notifi*/
+.header__notifi{
+	position: absolute;
+	top: 118%;
+	right: 0px;
+	width: 404px;
+	background-color: var(--white-color);
+	border: 1px solid #D3D3D3;
+	cursor: default;/*không hiện bàn tay*/
+	transform-origin: calc(100% - 30px) top;
+	animation: headernotifi ease-in 0.25s;
+	-webkit-animation:headernotifi ease-in 0.25s;
+	will-change: opacity, transform;/*tối ưu chuyển động animation*/
+	display: none;
+}
+.header__notifi::before{
+	content: "";
+	border-width: 20px 30px;
+	border-style:solid;
+	border-color: transparent transparent var(--white-color) transparent ;
+	position: absolute;
+	right: 1.2rem;
+	top: -2.8rem;
+}
+.header__item-notifi::before{
+	content: "";
+	width:100%;
+	height: 20px;
+	position: absolute;
+	top:20px;
+	display: block;
+}
+@keyframes headernotifi{
+	from{
+		opacity: 0;
+		transform: scale(0);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.header__item-notifi:hover .header__notifi{
+	display: block;
+}
+
+.header__notifi-header{
+	height: 40px;
+	background-color: var(--white-color);
+}
+.header__notifi-header h3{
+	color:#999;
+	line-height: 40px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin: 0 0 0 12px;
+	user-select: none;/*Không cho copy*/
+}
+.header__notifi-list{
+	padding-left: 0;
+
+}
+.header__notifi-item{
+	display: flex;
+}
+.header__notifi-item:hover{
+	background-color: #f7f7f7;
+}
+.header__notifi-item-viewed{	
+	background-color: rgba(238,75,43,0.1);
+}
+.header__notifi-link{
+	display: flex;
+	text-decoration: none;
+	padding: 1.2rem;
+	width: 100%;
+}
+.header__notifi-img{
+	width: 4.8rem;
+	object-fit: contain; /*fix ảnh bị méo*/
+}
+.header__notifi-info{
+	margin-left:1.2rem; 
+	margin-top: 0.4rem;
+}
+.header__notifi-name{
+	display: block;
+	font-size: 1.4rem;
+	color: var(--text-color);
+	font-weight: 400;
+	line-height: 1.8rem;
+}
+.header__notifi-desciotion{
+	display: block;
+	font-size: 1.2rem;
+	color: #756F6E;
+	line-height: 1.8rem;
+	margin-top: 0.4rem;
+}
+.header__notifi-footer{
+
+}
+.header__notifi-footer-btn{
+	text-decoration: none;
+	padding:0.7rem 0rem;
+	width: 100%;
+	text-align: center;
+	display: block;
+	/* ra giữa thì dùng display flex cha nó và margin auto chính nó chỉ ấn vào được chữ*/
+	/*Muốn dùng ấn nguyên phần dưới thì dùng width 100% + text align + display block*/
+}
