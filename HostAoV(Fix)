@@ -9,7 +9,13 @@
 ||ocsp.int-x3.letsencrypt.org^
 ||api-glb-hkg.smoot.apple.com^
 ||gdmf.apple.com^
-||qos.hk.gcloudcs.com
+||qos.hk.gcloudcs.com^
+||dlied5.tcdn.qq.com^
+||dlied5.tc.qq.com^
+||dlied6.tcdn.qq.com^
+||dlied6.tc.qq.com^
+||appsupport.qq.com^
+||commdata.v.qq.com^
 ||www.gdmf.apple.com^
 ||world-gen.g.applimg.com^
 ||smoot.apple.com^
